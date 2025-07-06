@@ -30,8 +30,9 @@
 ⚙️ Settings Management - Theme control and data management options
 
 
-📱 Screenshots
-Main ScreenAdd MissionDark ThemeSettingsClean list view with searchIntuitive form with GPSEye-friendly dark modeSimple settings panel
+### 📹 Watch Demo
+
+[🎥 View Demo Video](./videodemo/demo.mkv)
 
 🛠 Tech Stack
 CategoryTechnologyVersionLanguageKotlin1.9.22UI FrameworkJetpack ComposeBOM 2024.02.00ArchitectureMVVM + Repository Pattern-Data StorageIn-Memory StateFlow-NavigationNavigation Compose2.7.6LocationAndroid LocationManager-Design SystemMaterial 3Dynamic ThemingAsync ProgrammingCoroutines + Flow1.7.3
