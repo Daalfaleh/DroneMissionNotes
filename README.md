@@ -162,31 +162,32 @@ bash# Unit tests
 
 📁 Project Structure
 app/src/main/java/com/droneapp/missionnotes/
-├── 📊 data/
-│   ├── 🗃️ database/
+├── data/
+│   ├── database/
 │   │   ├── SimpleDataStore.kt
 │   │   └── entities/MissionNote.kt
-│   └── 📦 repository/MissionRepository.kt
-├── 🎨 ui/
-│   ├── 🧩 components/
+│   └── repository/
+│       └── MissionRepository.kt
+├── ui/
+│   ├── components/
 │   │   ├── MissionNoteCard.kt
 │   │   ├── SearchBar.kt
 │   │   └── LocationPicker.kt
-│   ├── 📱 screens/
+│   ├── screens/
 │   │   ├── MissionListScreen.kt
 │   │   ├── AddEditMissionScreen.kt
 │   │   └── SettingsScreen.kt
-│   ├── 🎭 theme/
+│   ├── theme/
 │   │   ├── Color.kt
 │   │   ├── Theme.kt
 │   │   └── Type.kt
-│   └── 🧠 viewmodel/
+│   └── viewmodel/
 │       ├── MissionViewModel.kt
 │       └── MissionViewModelFactory.kt
-├── 🛠 utils/
+├── utils/
 │   ├── LocationHelper.kt
 │   └── DateUtils.kt
-└── 📱 MainActivity.kt
+└── MainActivity.kt
 
 
 Technical Improvements
